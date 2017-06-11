@@ -1,0 +1,71 @@
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lobster">
+<head>
+<style>
+.menus {
+    padding: 0;
+}
+
+.menus li {
+    display: inline;
+}
+
+.menus li a {
+	font-family: 'Lobster', serif;
+    font-size: 40px;
+    background: #6699ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.menus li a:hover {
+    color: #E0E0E0;
+}
+</style>
+	<center><div id='menu'>
+<ul class="menus">
+    <li id='str'><a href=#>Strona główna</a>
+     
+    </li>
+    <li id="aa"><a href=#>Aktualności</a>
+      
+    </li>
+    <li id='g'><a href=#>Galeria</a>
+      
+    </li>
+	<li id="zakres"><a href=#>Zakres usług</a>
+      
+    </li>
+    <li id='ko'><a href=#>Kontakt</a>
+     
+    </li>
+</ul>
+
+
+
+</div>
+<script>
+
+$(document).ready(function(){
+ $("#g").click(function(){
+	$("#center").load("galeria.html");
+    });});
+$(document).ready(function(){
+$("#str").click(function(){
+	$("#center").load("srodek.html");
+    });});
+$(document).ready(function(){
+$("#zakres").click(function(){
+	$("#center").load("zakres.html");
+    });});
+$(document).ready(function(){
+$("#ko").click(function(){
+	$("#center").load("kontakt.html");
+    });});
+$(document).ready(function(){
+$("#aa").click(function(){
+	$("#center").load("aktu.html");
+    });});
+</script>
+

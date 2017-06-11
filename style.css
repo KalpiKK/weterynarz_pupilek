@@ -1,0 +1,36 @@
+.menus {
+    padding: 0;
+}
+
+.menus li {
+    display: inline;
+}
+
+.menus li a {
+	font-family: 'Lobster', serif;
+    font-size: 40px;
+    background: #6699ff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+
+.menus li a:hover {
+    color: #E0E0E0;
+p { color:gray;
+font-size: 13px;
+}
+}
+	
+	body {
+		 background: url(http://style19katemac.blox.pl/resource/bg6.jpg) repeat;}
+        * {font-family:'Cambria';}
+        all {width:100%;border:1px solid pink;border-collapse:collapse;}
+        #left, #center,#right  {border:5px solid #E0E0E0;vertical-align:top;position:relative;}
+        #left, #center,#right {height:500px;overflows-y:scroll;padding:10px; background-color: #F6F6F6;}
+        #all td#right,#all td#left {text-align:left}
+        #top,  {height:50px}
+        #left,#right {width:20%}
+        .news {clear:both;border:1px solid grey}
+  
